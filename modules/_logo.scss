@@ -3,6 +3,7 @@
 // ==========================================================================
 
 a.logo {
+  display: $logo-display;
   height:$header-height;
   max-width:$logo-max-width;
   background-image: url($logo-image);
