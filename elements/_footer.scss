@@ -15,6 +15,9 @@ footer {
   background-attachment: $footer-bg-attachment;
   background-position: $footer-bg-position;
   background-size:$footer-bg-size;
+  p {
+    font-family:$footer-font;
+  }
   a {
     color:$footer-link-color;
     &:hover {
