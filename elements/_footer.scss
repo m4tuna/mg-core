@@ -15,9 +15,11 @@ footer {
   background-attachment: $footer-bg-attachment;
   background-position: $footer-bg-position;
   background-size:$footer-bg-size;
+  line-height: $footer-lh;
   p {
     font-family:$footer-font;
     font-size:$footer-fsz;
+    line-height: $footer-lh;
   }
   a {
     color:$footer-link-color;
