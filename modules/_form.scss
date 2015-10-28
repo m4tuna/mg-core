@@ -1,0 +1,13 @@
+// ==========================================================================
+// Form
+// ==========================================================================
+
+form {
+  input[type="text"] {
+    border:1px solid $input-border;
+    &.error {
+      background-color:$error-bg;
+      border:1px solid $error-border;
+    }
+  }
+}
